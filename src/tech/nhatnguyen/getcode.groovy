@@ -1,4 +1,6 @@
 #!/usr/bin/env groovy
+package tech.nhatnguyen;
+
 def getsource(String giturl){
     stage("Checkout"){
         checkout([$class: 'GitSCM',
